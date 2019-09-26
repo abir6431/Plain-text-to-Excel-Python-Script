@@ -5,6 +5,7 @@ Python Script to automatically import data from plain text file to Excel
 import csv, os, openpyxl,re,string
 
 #This function writes a code that test whether row[1] is number 
+
 def is_number(s):
     try:
         float(s)
